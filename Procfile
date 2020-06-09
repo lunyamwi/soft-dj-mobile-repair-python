@@ -1,0 +1,1 @@
+web: gunicorn designers.wsgi --access-logfile "-" --workers 2
